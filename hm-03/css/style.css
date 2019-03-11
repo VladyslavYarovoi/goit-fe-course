@@ -34,15 +34,16 @@ body {
     color: grey;
 }
 
-/* a :link {
+a:link {
     padding: 2px;
     color: greenyellow;
-} */
-/* a :hover {
+}
+a:hover {
     background: rgb(230, 104, 104);
     color: rgb(43, 226, 58);
-} не пашет !Нужно понять почему! */
-
+} 
+/* нужно убирать пробел
+ */
 .first a {
     color: #9addfb;
 }
