@@ -281,7 +281,8 @@ h3::after {
     text-align: center;
     padding-top: 14px;
     color: white;
-    margin: 0 auto 82px;
+/*     margin: 0 auto 82px; ставит кнопку по центру родительского блока */
+    margin-bottom: 82px;
 }
 
 .last-link  {
