@@ -336,7 +336,7 @@ li .icon-korzina {
 
 /* Footer */
 
-footer  {
+/* footer  {
     display: block;
     background: #323232;
     height: 88px;
@@ -360,4 +360,30 @@ footer  {
 .link-dev   {
     margin-left: 6px;
     color: #46bfa9;
+} */
+/* Вот этот вариант мне кажется лучше */
+footer  {
+    position: relative;
+    content: '';
+    background: #323232;
+    height: 88px;
 }
+.footer-line {
+    position: absolute;
+    content: '';
+    padding: 0;
+    margin: 0;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+}
+.footer-line li {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+.link-dev   {
+    margin-left: 6px;
+    color: #46bfa9;
+}
+
