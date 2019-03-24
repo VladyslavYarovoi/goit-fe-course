@@ -346,8 +346,6 @@ li .icon-korzina {
     padding: 0;
     font-size: 0;
     list-style: none;
-    /* width: 1110px; */
-    /* margin: auto; */
     margin-left: 500px;
     padding-top: 34px;
 }
@@ -362,6 +360,7 @@ li .icon-korzina {
     color: #46bfa9;
 } */
 /* Вот этот вариант мне кажется лучше */
+
 footer  {
     position: relative;
     content: '';
