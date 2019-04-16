@@ -69,7 +69,14 @@ a   {
     margin: 0 auto;
 }
 
-header {
+/* header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: flex-end;
+} */
+
+nav {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -188,7 +195,7 @@ h3 {
     font-weight: 400;
 }
 
-footer  {
+section  {
     padding-top: 104px;
     padding-bottom: 114px;
     min-height: 678px;
