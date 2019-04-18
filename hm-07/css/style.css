@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* button    {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+* ul li {
+    list-style: none;
+}
+
+* a   {
+    display: block;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v13-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v13-cyrillic_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+       url('../fonts/montserrat-v13-cyrillic_latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v13-cyrillic_latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('../fonts/roboto-slab-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-slab-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* kaushan-script-regular - latin */
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kaushan Script'), local('KaushanScript-Regular'),
+         url('../fonts/kaushan-script-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/kaushan-script-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* great-vibes-regular - latin */
+@font-face {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Great Vibes'), local('GreatVibes-Regular'),
+         url('../fonts/great-vibes-v6-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/great-vibes-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* .wrapper {
+    width: 940px;
+    margin: 0 auto;
+} */
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: flex-end;
+} */
+
+
+
+header  {
+    width: 940px;
+    margin: 0 auto
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: flex-end;
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    color: #fed136;
+    font-size: 26px;
+    font-family: 'Great Vibes', serif;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    flex-basis: 485px;
+    justify-content: space-between;
+}
+
+.navigation-item {
+    /* list-style: none; */
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navigation-item a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.navigation-item a:hover {
+    color: #fed136;
+}
+
+/* MAIN */
+
+main {
+    padding-top: 126px;
+    /* padding-bottom: 102px; */
+}
+
+.section1   {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 116px;
+}
+
+.top {
+    text-align: center;
+    margin-bottom: 146px;
+}
+
+.text {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.undertext {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.services {
+    display: flex;
+    /* padding-bottom: 40px; */
+}
+
+.services-items {
+    position: relative;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.services-items:last-child  {
+    margin-right: 0;
+}
+
+.services-items::before {
+    content: '';
+    background-image: url(../img/icons/Группа\ 1.png);
+    /* position: absolute;
+    left: 50%;
+    top: 0; */
+    width: 72px;
+    height: 74px;
+    /* transform: translate(-50%, -120%); */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin: 0 auto;
+}
+
+/* .first::before {
+    content: '';
+    background-image: url(../img/icons/Группа\ 1.png);
+} */
+
+.second::before {
+    content: '';
+    background-image: url(../img/icons/Группа\ 2.png);
+}
+
+.third::before {
+    content: '';
+    background-image: url(../img/icons/Группа\ 3.png);
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.tt   {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+}
+
+.section2  {
+    padding-top: 104px;
+    padding-bottom: 114px;
+    min-height: 678px;
+    background-image: url(../img/Background.png);
+    background-size: cover;
+}
+
+.down   {
+    margin-bottom: 76px;
+}
+
+.contact    {
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+.contact-text   {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form   {
+    /* display: flex; */
+    margin-bottom: 28px;
+    flex-basis: 940px;
+    /* height: 252px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.forms-items-div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.part1  {
+    width: 455px;
+    margin-bottom: 28px;
+    margin-left: 30px;
+    /* align-content: space-between; */
+}
+
+.part1:first-child  {
+    margin-left: 0;
+}
+
+.input-form {
+    display: block;
+    /* width: 455px; */
+    text-transform: uppercase;
+    width: 100%;
+    height: 54px;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.input-form:last-child  {
+    margin-bottom: 0;
+}
+
+.last   {
+    height: 100%;
+    resize: none;
+}
+
+.input-form:valid   {
+    outline: solid green;
+}
+
+.input-form:invalid {
+    outline: solid red;
+}
+
+/* .end    {
+    width: 100%;
+} */
+.button {
+    display: block;
+    background-color: #fed136;
+    padding: 24px 44px;
+    border-radius: 4px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.send {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: white;
+}
