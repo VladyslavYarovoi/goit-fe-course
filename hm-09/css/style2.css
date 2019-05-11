@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(../img/mobile-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 540px;
+}
+
+* a {
+    text-decoration: none;
+}
+
+.nav-item {
+    margin-bottom: 116px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 45px;
+    padding-top: 5px;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    border: 2px solid rgba(255, 255, 255, 1);
+    
+}
+
+.nav-item-1 {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item-1:hover,
+.nav-item-1:focus   {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.first {
+    padding-top: 20px;
+    margin-bottom: 32px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+}
+
+.undertext {
+    text-align: center;color: rgba(255, 255, 255, 0.7);
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button1    {
+    padding: 14px 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    font-size: 12px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.submain    {
+    padding-top: 66px;
+}
+
+.row    {
+    margin-bottom: 40px;
+}
+
+.top {
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button2 {
+    /* display: block; */
+    padding: 14px 50px;
+    border: 2px solid rgb(255, 78, 80);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    /* margin: 0 auto; */
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 78, 80);
+    margin-bottom: 74px;
+}
+
+.button2:hover,
+.button2:focus {
+    background-color:rgb(255, 78, 80);
+    color: white;
+}
+
+
+
+@media  (min-width: 768px) and (max-width: 991px)  {
+
+    .main {
+        background-image: url(../img/tablet.jpg);
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media  (min-width: 992px) {
+
+    .main {
+        background-image: url(../img/desktop-background.png);
+        width: 100%;
+        object-fit: cover;
+        padding-bottom: 0;
+    }
+}
