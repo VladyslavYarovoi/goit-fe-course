@@ -1,0 +1,61 @@
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 62px;
+    border-top: 1px solid $text-color-uppart;
+}
+
+
+
+.company {
+    text-decoration: none;
+    margin-left: 5px;
+    color: $red-color;
+}
+
+input {
+    margin: 0px;
+    padding: 0;
+    font-size: 0;
+}
+
+.form__subscribe {
+    height: 100%;
+    width: 100%;
+    background: $blue-color;
+    border: 1px solid $blue-color;
+    font-size: 14px;
+    color: $text-color-uppart;
+}
+
+.footer__form {
+    -ms-flex-preferred-size: 380px;
+        flex-basis: 380px;
+}
+
+.form__field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+    -ms-flex-preferred-size: 380px;
+        flex-basis: 380px;
+}
+
+.form__email {
+    font-size: 14px;
+    -ms-flex-preferred-size: 228px;
+        flex-basis: 228px;
+    border-width: 1px;
+    border-color: rgba(229, 229, 229, 0.5);
+    padding-left: 10px;
+}

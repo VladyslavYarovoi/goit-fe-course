@@ -1,0 +1,27 @@
+.section-first {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-first__uppertext {
+    font-size: 72px;
+    color: $text-color-uppart;
+    font-family: $font-title;
+}
+
+.section-first__maintext {
+    font-size: 150px;
+    font-family: $font-uptitle;
+    color: $text-color-uppart;
+    margin-bottom: 105px;
+}
+
+.section-first__button {
+    border: 3px solid $text-color-uppart;
+    background-color: rgba(0, 0, 0, 0);
+    width: 164px;
+    height: 44px;
+    text-decoration: none;
+    color: $text-color-uppart;
+}

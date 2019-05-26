@@ -1,0 +1,22 @@
+/*
+   Import partials below
+*/
+@import  './helpers/variables.scss';
+@import './components/normalize.scss';
+@import  './components/base.scss';
+
+
+/* components*/  
+
+@import 'components/wrapper';
+@import 'components/header';
+@import 'components/wrapper__bg';
+@import 'components/logo';
+@import 'components/nav__all.scss';
+@import 'components/section-first';
+@import 'components/main';
+@import 'components/section-second';
+@import 'components/cards';
+@import 'components/socials';
+@import 'components/footer';
+// @import 'components/media';

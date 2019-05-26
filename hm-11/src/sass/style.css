@@ -1,0 +1,42 @@
+
+/* Cards */
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+/* Media */
+
+@media  (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx)   {
+    .items-1 {
+        background-image: url(../img/icons/ALARM@2x.png);
+    }
+    
+    .items-2 {
+        background-image: url(../img/icons/LINE\ GRAPH@2x.png);
+    }
+    
+    .items-3 {
+        background-image: url(../img/icons/COMPUTER_OK@2x.png);
+    }
+    
+    .items-4 {
+        background-image: url(../img/icons/BOOK2@2x.png);
+    }
+    
+    .items-5 {
+        background-image: url(../img/icons/HOME@2x.png);
+    }
+    
+    .items-6 {
+        background-image: url(../img/icons/IMAGE@2x.png);
+    }
+}
