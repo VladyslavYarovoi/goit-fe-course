@@ -415,7 +415,7 @@ template {
 
 .wrapper__bg {
   background-image: -ms-linear-gradient(90deg, #fce38a 0%, #f38181 100%);
-  background-image: url(./images/sprites/igle.png);
+  background-image: url(../images/sprites/igle.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
