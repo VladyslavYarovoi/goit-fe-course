@@ -631,33 +631,15 @@ template {
   transform: translate(0);
   box-shadow: 0 0 0 0 #95e1d3;
   box-shadow: 0 0 0 0 #95e1d3;
-  transition: box-shadow 0.2s linear,
- -webkit-transform 0.2s linear;
-  transition: transform 0.2s linear,
- box-shadow 0.2s linear;
-  transition: transform 0.2s linear,
- box-shadow 0.2s linear,
- -webkit-transform 0.2s linear;
-  transition: transform 0.2s linear,
- box-shadow 0.2s linear;
-  transition: transform 0.2s linear,
- box-shadow 0.2s linear;
-  transition: transform 0.2s linear,
- box-shadow 0.2s linear;
-  transition: box-shadow 0.2s linear,
- box-shadow 0.2s linear,
- -webkit-transform 0.2s linear,
- -webkit-transform 0.2s linear;
-  transition: transform 0.2s linear,
- box-shadow 0.2s linear,
- transform 0.2s linear,
- box-shadow 0.2s linear;
-  transition: transform 0.2s linear,
- box-shadow 0.2s linear,
- transform 0.2s linear,
- box-shadow 0.2s linear,
- -webkit-transform 0.2s linear,
- -webkit-transform 0.2s linear;
+  transition: box-shadow 0.2s linear, -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear, -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear;
+  transition: box-shadow 0.2s linear, box-shadow 0.2s linear, -webkit-transform 0.2s linear, -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear, transform 0.2s linear, box-shadow 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear, transform 0.2s linear, box-shadow 0.2s linear, -webkit-transform 0.2s linear, -webkit-transform 0.2s linear;
   margin-bottom: 30px;
 }
 
