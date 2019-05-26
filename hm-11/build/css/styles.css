@@ -415,7 +415,7 @@ template {
 
 .wrapper__bg {
   background-image: -ms-linear-gradient(90deg, #fce38a 0%, #f38181 100%);
-  background-image: url(../../images/sprites/igle.png);
+  background-image: url(./images/sprites/igle.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -631,15 +631,33 @@ template {
   transform: translate(0);
   box-shadow: 0 0 0 0 #95e1d3;
   box-shadow: 0 0 0 0 #95e1d3;
-  transition: box-shadow 0.2s linear, -webkit-transform 0.2s linear;
-  transition: transform 0.2s linear, box-shadow 0.2s linear;
-  transition: transform 0.2s linear, box-shadow 0.2s linear, -webkit-transform 0.2s linear;
-  transition: transform 0.2s linear, box-shadow 0.2s linear;
-  transition: transform 0.2s linear, box-shadow 0.2s linear;
-  transition: transform 0.2s linear, box-shadow 0.2s linear;
-  transition: box-shadow 0.2s linear, box-shadow 0.2s linear, -webkit-transform 0.2s linear, -webkit-transform 0.2s linear;
-  transition: transform 0.2s linear, box-shadow 0.2s linear, transform 0.2s linear, box-shadow 0.2s linear;
-  transition: transform 0.2s linear, box-shadow 0.2s linear, transform 0.2s linear, box-shadow 0.2s linear, -webkit-transform 0.2s linear, -webkit-transform 0.2s linear;
+  transition: box-shadow 0.2s linear,
+ -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear,
+ box-shadow 0.2s linear;
+  transition: transform 0.2s linear,
+ box-shadow 0.2s linear,
+ -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear,
+ box-shadow 0.2s linear;
+  transition: transform 0.2s linear,
+ box-shadow 0.2s linear;
+  transition: transform 0.2s linear,
+ box-shadow 0.2s linear;
+  transition: box-shadow 0.2s linear,
+ box-shadow 0.2s linear,
+ -webkit-transform 0.2s linear,
+ -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear,
+ box-shadow 0.2s linear,
+ transform 0.2s linear,
+ box-shadow 0.2s linear;
+  transition: transform 0.2s linear,
+ box-shadow 0.2s linear,
+ transform 0.2s linear,
+ box-shadow 0.2s linear,
+ -webkit-transform 0.2s linear,
+ -webkit-transform 0.2s linear;
   margin-bottom: 30px;
 }
 
