@@ -68,7 +68,7 @@
     font-size: 10px;
     list-style-type: none;
     max-width: 392px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
@@ -90,26 +90,35 @@
     font-size: 14px;
 }
 
-.items-1 {
+.list__items::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    transform: translate(30px, 30px);
+}
+
+.items-1::before    {
     background-image: url(../images/sprites/ALARM.png);
 }
 
-.items-2 {
+.items-2::before {
     background-image: url(../images/sprites/LINEGRAPH.png);
 }
 
-.items-3 {
+.items-3::before {
     background-image: url(../images/sprites/COMPUTEROK.png);
 }
 
-.items-4 {
+.items-4::before {
     background-image: url(../images/sprites/BOOK2.png);
 }
 
-.items-5 {
+.items-5::before {
     background-image: url(../images/sprites/HOME.png);
 }
 
-.items-6 {
+.items-6::before {
     background-image: url(../images/sprites/IMAGE.png);
 }
